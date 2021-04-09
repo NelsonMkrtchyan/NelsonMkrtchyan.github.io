@@ -1,29 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/structure/Header";
+import Footer from "./components/structure/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      {/*<header className="App-header">*/}
-      {/*  <img src={logo} className="App-logo" alt="logo" />*/}
-      {/*  <p>*/}
-      {/*    Edit <code>src/App.js</code> and save to reload.*/}
-      {/*  </p>*/}
-      {/*  <a*/}
-      {/*    className="App-link"*/}
-      {/*    href="https://reactjs.org"*/}
-      {/*    target="_blank"*/}
-      {/*    rel="noopener noreferrer"*/}
-      {/*  >*/}
-      {/*    Learn React*/}
-      {/*  </a>*/}
-      {/*</header>*/}
-
-      <h1>I am React app </h1>
-      <h2>Nice to meet you !!! </h2>
-
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <main>
+                <section id="content" className="content">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam
+                                    elementum lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui
+                                    volutpat sollicitudin. Etiam non erat finibus, iaculis nunc vel, convallis eros.
+                                    Etiam efficitur tempor dui, vitae fringilla ipsum tristique quis. Aliquam erat
+                                    volutpat. Cras ullamcorper ex et viverra vulputate. Nam lectus ligula, pretium nec
+                                    risus nec, ultricies fringilla mauris. Proin quis venenatis neque, iaculis porta
+                                    nulla. </p>
+                            </div>
+                            <div className="col-md-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam
+                                    elementum lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui
+                                    volutpat sollicitudin. Etiam non erat finibus, iaculis nunc vel, convallis eros.
+                                    Etiam efficitur tempor dui, vitae fringilla ipsum tristique quis. Aliquam erat
+                                    volutpat. Cras ullamcorper ex et viverra vulputate. Nam lectus ligula, pretium nec
+                                    risus nec, ultricies fringilla mauris. Proin quis venenatis neque, iaculis porta
+                                    nulla. </p>
+                            </div>
+                            <div className="col-md-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam
+                                    elementum lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui
+                                    volutpat sollicitudin. Etiam non erat finibus, iaculis nunc vel, convallis eros.
+                                    Etiam efficitur tempor dui, vitae fringilla ipsum tristique quis. Aliquam erat
+                                    volutpat. Cras ullamcorper ex et viverra vulputate. Nam lectus ligula, pretium nec
+                                    risus nec, ultricies fringilla mauris. Proin quis venenatis neque, iaculis porta
+                                    nulla. </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
