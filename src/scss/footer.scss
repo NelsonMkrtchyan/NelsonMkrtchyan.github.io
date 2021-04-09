@@ -1,0 +1,26 @@
+footer {
+  position: relative;
+  height: 100vh;
+  min-height: 250;
+  max-height: 300px;
+  background: #336b7e no-repeat fixed center center;
+  background-size: cover;
+
+  p {
+    color: #fff;
+  }
+
+  .footer-block {
+    padding: 0 3vh;
+    border-right: 1px solid #fff;
+  }
+
+  .footer-inner-block {
+    padding: 3vh 0;
+  }
+
+  .horizontal-divider {
+    border-bottom: 1px solid #fff;
+
+  }
+}

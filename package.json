@@ -12,12 +12,12 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sass": "sass --watch src/scss/index.scss:public/assets/css/index.css"
   },
   "eslintConfig": {
     "extends": [
@@ -36,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.32.8"
   }
 }
